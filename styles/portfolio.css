@@ -1,6 +1,6 @@
 :root {
-  --branding-color: rgb(124, 35, 87);
-  --background-color: rgb(246, 234, 241);
+  --branding-color: rgb(150, 60, 113);
+  --background-color: rgb(247, 238, 244);
   --secondary-color: rgb(86, 85, 85);
   --font-family: "Lora", serif;
 }
@@ -8,6 +8,17 @@
 h1 {
   font-family: var(--font-family);
   font-weight: bold;
+  font-size: 60px;
+}
+h2 {
+  font-family: var(--font-family);
+  font-size: 48px;
+}
+p {
+  font-family: var(--font-family);
+  font-size: 16px;
+  font-weight: normal;
+  line-height: 30px;
 }
 .power {
   background: var(--background-color);
@@ -35,4 +46,33 @@ h1 {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+}
+.btn-branding-outline {
+  background: var(--branding-color);
+  border-radius: 4px;
+  border: 1 px solid var(--branding-color);
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 10px 20px;
+}
+
+.project-description {
+  padding: 120 60px;
+}
+@media (max-width: 900px) {
+  h1 {
+    font-size: 40px;
+    line-height: 1.5;
+  }
+  h2 {
+    font-size: 38px;
+  }
+  .power {
+    padding: 80px 20px;
+  }
+  .project-description {
+    padding: 0;
+    text-align: center;
+  }
 }
