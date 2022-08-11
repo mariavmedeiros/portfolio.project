@@ -1,8 +1,38 @@
-body {
-  font-family: "Lora", serif;
+:root {
+  --branding-color: rgb(124, 35, 87);
+  --background-color: rgb(246, 234, 241);
+  --secondary-color: rgb(86, 85, 85);
+  --font-family: "Lora", serif;
+}
+
+h1 {
+  font-family: var(--font-family);
   font-weight: bold;
 }
-p {
-  font-family: "Lora", serif;
+.power {
+  background: var(--background-color);
+  text-align: center;
+  padding: 160px 0;
+}
+.power p {
+  font-family: var(--font-family);
   font-weight: normal;
+  font-size: 24px;
+  margin: 0;
+  color: var(--secondary-color);
+}
+.power h2 {
+  font-family: var(--font-family);
+  font-weight: normal;
+  font-size: 24px;
+  line-height: 2;
+  color: var(--secondary-color);
+}
+.btn-branding {
+  background: var(--branding-color);
+  border-radius: 4px;
+  color: white;
+  font-size: 18px;
+  line-height: 27px;
+  padding: 15px 30px;
 }
