@@ -23,7 +23,7 @@ p {
 .power {
   background: var(--background-color);
   text-align: center;
-  padding: 160px 0;
+  padding: 160px 20;
 }
 .power p {
   font-family: var(--font-family);
@@ -60,6 +60,20 @@ p {
 .project-description {
   padding: 120 60px;
 }
+.about-section {
+  padding: 160px 20px;
+}
+.about-section h1 {
+  font-size: 60px;
+  line-height: 68px;
+}
+.about-section h2 {
+  font-size: 24px;
+  font-family: var(--font-family);
+}
+.about-section-content {
+  margin: 30px;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
@@ -74,5 +88,9 @@ p {
   .project-description {
     padding: 0;
     text-align: center;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
   }
 }
