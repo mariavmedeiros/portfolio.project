@@ -74,6 +74,11 @@ p {
 .about-section-content {
   margin: 30px;
 }
+.img-fluid {
+  border-radius: 10px;
+  max-width: 100%;
+  height: auto;
+}
 @media (max-width: 900px) {
   h1 {
     font-size: 40px;
