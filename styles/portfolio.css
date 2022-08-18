@@ -60,18 +60,27 @@ p {
 .project-description {
   padding: 120 60px;
 }
-.about-section {
+.content-container {
   padding: 160px 20px;
 }
-.about-section h1 {
+.content h1 {
   font-size: 60px;
   line-height: 68px;
 }
-.about-section h2 {
+.content h2 {
   font-size: 24px;
   font-family: var(--font-family);
 }
-.about-section-content {
+.content h3 {
+  font-size: 24px;
+  line-height: 1.5;
+  margin: 20px 0 0;
+}
+.content p {
+  font-size: 14px;
+}
+
+.content {
   margin: 30px;
 }
 .img-fluid {
@@ -94,7 +103,7 @@ p {
     padding: 0;
     text-align: center;
   }
-  .about-section {
+  .content {
     text-align: center;
     padding: 0;
   }
