@@ -36,9 +36,38 @@
       crossorigin="anonymous"
     ></script>
     <link rel="stylesheet" href="styles/portfolio.css" />
-    <title>About Me</title>
+    <meta
+      name="description"
+      content=" Know more about Maria. Maria is a brazilian front-end engineer based in USA."
+    />
+    <title>About Maria</title>
   </head>
   <body>
+    <div class="container">
+      <nav class="d-flex justify-content-between">
+        <a href="/index.html">
+          <img
+            src="images/logo.png"
+            class="logo"
+            alt="Maria logo"
+            title="Homepage"
+        /></a>
+        <ul>
+          <li>
+            <a href="/index.html" title="Homepage"> Home </a>
+          </li>
+          <li class="active">
+            <a href="/about.html" title="About Maria">About</a>
+          </li>
+          <li>
+            <a href="/work.html" title="Maria's work"> Work </a>
+          </li>
+          <li>
+            <a href="/contact.html" title="Contact Maria">Contact </a>
+          </li>
+        </ul>
+      </nav>
+    </div>
     <div class="content-container container">
       <div class="row">
         <div class="col-lg-6">
@@ -55,9 +84,61 @@
           </div>
         </div>
         <div class="col-lg-6">
-          <img src="images/maria.png" alt="" class="img-fluid" />
+          <img src="images/maria.png" alt=" Maria" class="img-fluid" />
         </div>
       </div>
+      <footer>
+        <div class="contact-box justify-content-between mb-5 d-none d-md-flex">
+          <div>
+            <h3>Work Inquiry</h3>
+            <p class="text-muted">Let's work togheter</p>
+          </div>
+          <div>
+            <a
+              href="/contact.html"
+              class="btn btn-branding"
+              title="Contact Maria"
+              >Contact me</a
+            >
+          </div>
+        </div>
+        <div class="d-flex justify-content-center">
+          <a
+            href="mailto:mariavelori04@gmail.com"
+            class="email-link"
+            title="Email Maria"
+          >
+            mariavelori04@gmail.com
+          </a>
+        </div>
+        <div class="social-links d-flex justify-content-center">
+          <a
+            href="https://www.instagram.com/mariavelorimedeiros/"
+            target="_blank"
+            ><i class="fa-brands fa-instagram" title="Instagram Profile"></i
+          ></a>
+          <a
+            href="https://github.com/mariavmedeiros"
+            target="_blank"
+            title="GitHub Profile"
+            ><i class="fa-brands fa-github"></i
+          ></a>
+          <a
+            href="https://www.linkedin.com/in/maria-tereza-velori-medeiros-98499a105/"
+            target="_blank"
+            title="Linkedin Profile"
+            ><i class="fa-brands fa-linkedin"></i
+          ></a>
+        </div>
+        <p class="text-center mt-5">
+          This project was coded by Maria Medeiros, and it is
+          <a
+            href="https://github.com/mariavmedeiros/portfolio.project"
+            target="_blank"
+            >open-source</a
+          >
+        </p>
+      </footer>
     </div>
   </body>
 </html>
