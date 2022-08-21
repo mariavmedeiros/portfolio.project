@@ -19,14 +19,21 @@ h3 {
 }
 p {
   font-family: var(--font-family);
-  font-size: 16px;
+
   font-weight: normal;
+  line-height: 30px;
+}
+ul {
+  list-style: none;
+  font-size: 16px;
+  font-family: var(--font-family);
+
   line-height: 30px;
 }
 .power {
   background: var(--background-color);
   text-align: center;
-  padding: 60px 20;
+  padding: 100px 20px;
 }
 .power p {
   font-family: var(--font-family);
@@ -80,7 +87,7 @@ p {
   margin: 20px 0 0;
 }
 .content p {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .content {
@@ -89,7 +96,6 @@ p {
 .img-fluid {
   border-radius: 10px;
   max-width: 100%;
-
   background-color: var(--branding-color);
 }
 .logo {
@@ -120,6 +126,10 @@ nav a:hover {
 }
 footer {
   margin: 60px 0;
+}
+footer .contact-box {
+  background-color: var(--background-color);
+  padding: 30px 120px;
 }
 
 footer .contact-box p {
