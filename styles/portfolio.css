@@ -56,6 +56,8 @@ ul {
   font-size: 18px;
   line-height: 27px;
   padding: 15px 30px;
+  text-align: center;
+  margin: auto;
 }
 .btn-branding-outline {
   background: var(--branding-color);
