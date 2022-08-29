@@ -104,7 +104,7 @@ ul {
 }
 .img-fluid-maria {
   border-radius: 10px;
-  max-widht: 80%;
+  max-width: 80%;
   background-color: var(--branding-color);
   height: 400px;
   width: 400px;
